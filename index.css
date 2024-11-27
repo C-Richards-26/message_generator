@@ -1,0 +1,51 @@
+* {
+    font-family: "Eagle Lake", cursive, serif;
+    background-color: #98fb98;
+}
+
+h1 {
+    text-align: center;
+    padding: 3rem;
+}
+
+.button {
+    text-align: center;
+    margin: 5rem;
+}
+
+button {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0px 3px;
+    text-shadow: 0px 1px;
+}
+button:hover {
+    cursor: pointer;
+}
+button:active {
+    position: relative;
+    top: 3px;
+    color: black;
+    box-shadow: 0px 0px;
+    text-shadow: 0px 0px;
+}
+
+.phraseHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 10rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+p {
+    text-align: center;
+    padding: 2rem;
+}
